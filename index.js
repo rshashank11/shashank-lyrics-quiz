@@ -7,7 +7,7 @@ console.log(chalk.blue("Welcome! ") + chalk.underline.bold.yellowBright(userName
 var userScore = 0;
 
 function lyricsQuiz(lyric, song, artist){
-  console.log(chalk.italic.bgBlack(lyric));
+  console.log(chalk.italic..cyan.bgBlack(lyric));
   var userAnswer = readlineSync.question("Enter Name of the Song: ");
   console.log("");
 
